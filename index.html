@@ -1,44 +1,86 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>宇留間滉太の自己紹介</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css"> 
+  </head>
+  <body>
     <header>
-        <h1>自己紹介ページ</h1>
-        <p>こんにちは！私のページへようこそ。</p>
+      <div class="container">
+        <div id="title" class="title">
+          <h1>PROFILE</h1>
+        </div>
+        <div class="header-right">
+          <a href="#basicinfo">基本情報</a>
+          <a href="#myhobby">趣味</a>
+        </div>
+      </div>
     </header>
-
-    <section class="about-me">
-        <h2>私について</h2>
-        <p>名前: 山田 太郎</p>
-        <p>職業: Webデザイナー</p>
-        <p>趣味: プログラミング、読書、旅行</p>
-        <p>自己紹介: クリエイティブなデザインとユーザー体験の向上を目指しています。常に新しい技術を学び、成長を続けています。</p>
-    </section>
-
-    <section class="skills">
-        <h2>スキル</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Photoshop</li>
-        </ul>
-    </section>
-
-    <section class="contact">
-        <h2>連絡先</h2>
-        <p>Email: example@example.com</p>
-        <p>電話番号: 090-1234-5678</p>
-    </section>
-
+ 
+    <div class="main">
+      <div class="">
+        <img src="my_image.jpg" alt="宇留間の写真">
+      </div>
+      <div class="profile-wrapper">
+        <h2 id="basicinfo"class="basicinfo">基本情報</h2>
+        <div class="profile">
+          <p>名前:宇留間滉太</p>
+          <p>誕生日:7月16日</p>
+          <p>血液型:B型</p>
+          <p>出身:愛知県</p>
+          <p>大学:明治大学</p>
+          <p>好物:寿司</p>
+          <p>バイト:コンビニ</p>
+        </div>
+        <div class="image-container">
+          <div class="image">
+              <img src="aichi.png" alt="愛知県のイメージ画像">
+          </div>
+          <div class="image">
+              <img src="sushi.jpg" alt="寿司の写真">
+          </div>
+          <div class="image">
+              <img src="kissa2.jpg" alt="コンビニ店員のイメージ画像">
+          </div>
+        </div>
+      </div>       
+      <div class="hobby-wrapper">
+        <div class="hobby-container">
+          <h2 id="myhobby"class="myhobby">趣味</h2>
+          <div class="hobby">
+            <div class="hobby_travel">
+              <img src="travel.jpg" alt="旅行の写真">
+              <h3>旅行</h3>
+              <p>国内を中心に、ほとんどの県に旅行に行っています。</p>
+              <p>2024年の夏は北海道と山形に行きました。</p>
+            </div>
+          </div>
+          <div class="hobby">
+            <div class="hobby_baseball">
+              <img src="baseball.jpg" alt="野球観戦の写真">
+              <h3>野球観戦</h3>
+              <p>地元の中日ドラゴンズを応援しています！</p>
+              <p>月1くらいで球場に行きます。</p>
+            </div>
+          </div>
+          <div class="hobby">
+            <div class="hobby_comic">
+              <img src="comic.png" alt="漫画の写真">
+              <h3>漫画</h3>
+              <p>最近は怪獣8号を読みました。</p>
+              <p>一推しの作品はワールドトリガーです！</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <a href="#title" class="btn top">上に戻る</a>
+    </div>
     <footer>
-        <p>&copy; 2024 山田 太郎. All rights reserved.</p>
+        <h2>KOTA URUMA PROFILE</h2>
+        <p>©2024 Kota Uruma. All Rights Reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
 
