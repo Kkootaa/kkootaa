@@ -13,10 +13,12 @@ li {
   }
 
 header{
-    height:100px;
-    background-color:#d3d3d3;
+header{
     display:flex;
+    height:100px;
+    justify-content: space-between;
     align-items:center;
+    background-color:#d3d3d3;
 }
 
 .title {
