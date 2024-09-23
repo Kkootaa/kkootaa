@@ -1,1 +1,50 @@
 
+body {
+    margin: 0;
+    font-family: "Arial","游ゴシック","ヒラギノ角ゴ ProN", sans-serif;
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+li {
+    list-style: none;
+  }
+
+header{
+    height:100px;
+    background-color:#d3d3d3;
+    display:flex;
+    align-items:center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+  width: 80px;
+  text-align: center;
+}
+
+header a {
+    color:#000000;
+    font-size: 16px;
+}
+
+header a:hover{
+    transform: scale(2);
+    opacity: 0.5;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
