@@ -42,9 +42,3 @@ header a:hover{
     transform: scale(2);
     opacity: 0.5;
 }
-
-.container {
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
