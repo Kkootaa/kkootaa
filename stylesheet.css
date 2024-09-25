@@ -55,15 +55,14 @@ header a:hover{
 }
 
 .my_image {
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 
 .my_image img {
   width: 80%;
   border-radius: 8px;
-　margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .image_container {
