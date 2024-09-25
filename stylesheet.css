@@ -62,7 +62,7 @@ header a:hover{
 .my_image img {
   width: 80%;
   border-radius: 8px;
-　margin-top: 20px;
+　margin: 20px 0 20px 0;
 }
 
 .image_container {
