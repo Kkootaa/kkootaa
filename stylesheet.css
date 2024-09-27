@@ -113,3 +113,32 @@ footer{
   text-align: center;
   padding: 30px 0;
 }
+
+@media (max-width: 1000px) {
+
+
+}
+
+@media (max-width: 670px) {
+  .image_container{
+      display: block;
+  }
+  .image img{
+    max-width:670px;
+    width: auto;
+    height: auto;
+    margin:0 auto;
+  }
+
+  .hobby-container{
+    display: block;
+  }
+  
+  .hobby img{
+    max-width:670px;
+    width: auto;
+    height: auto;
+    margin:0 auto;
+  }
+
+}
